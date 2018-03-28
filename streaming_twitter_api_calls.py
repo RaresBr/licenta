@@ -58,7 +58,7 @@ def send_tweets_to_spark(http_response, connection):
             print('full tweet:', full_tweet)
             print('tweet text:', tweet_text)
             print('-' * 10)
-            connection.send(bytearray(str(full_tweet) + '\n', 'utf8'))
+            connection.send(bytearray(str(tweet_text) + '\n', 'utf8'))
         except Exception as e:
             print(e)
 
@@ -71,8 +71,8 @@ conn = None
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind((IP, PORT))
 s.listen(1)
-print("Waiting for TCP connection...")
+print("Waiting tcp conn")
 conn, addr = s.accept()
-print("Connected... Starting getting tweets.")
+print("Connected. Starting getting tweets.")
 resp = stream_tweets()
 send_tweets_to_spark(resp, conn)
