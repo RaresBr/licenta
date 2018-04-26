@@ -53,7 +53,9 @@ test_data.cache()
 
 algorithm = LogisticRegressionWithSGD()
 model = algorithm.train(training_data)
+
 print(score(model))
+model.save(sc,"classifierModel")
 
 if __name__ == "__main__":
     pass
