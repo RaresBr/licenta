@@ -14,7 +14,7 @@ def print_rdd_with_prediction(rdd):
     print("RECORD: ")
     tweets = rdd.collect()
     for tweet in tweets:
-        words = tokenizer.tokenize(tweet)
+        words = list(map(lambda x : x.lower(), tokenizer.tokenize(tweet)))
         print('one tweet: ', words)
         hashed = tf.transform(words)
         print('transformed',hashed )
@@ -28,7 +28,7 @@ conf.setAppName("TwitterStreamApp")
 
 sc = SparkContext(conf=conf)
 sc.setLogLevel("ERROR")
-model = LogisticRegressionModel.load(sc,"classifierModel")
+model = LogisticRegressionModel.load(sc,"classifierModelLOWERCASE")
 # create the Streaming Context from the above spark context with interval size 2 seconds
 ssc = StreamingContext(sc, 2)
 

@@ -23,8 +23,8 @@ conf.setAppName("TweetClassifier")
 sc = SparkContext(conf=conf)
 sc.setLogLevel("ERROR")
 
-fake = sc.textFile("fake_clean.txt")
-real = sc.textFile("real_clean.txt")
+fake = sc.textFile("fake_cleanLOWERCASE.txt")
+real = sc.textFile("real_cleanLOWERCASE.txt")
 
 fake_words = fake.map(lambda sentence: sentence.split())
 real_words = real.map(lambda sentence: sentence.split())
@@ -55,7 +55,7 @@ algorithm = LogisticRegressionWithSGD()
 model = algorithm.train(training_data)
 
 print(score(model))
-model.save(sc,"classifierModel")
+model.save(sc,"classifierModelLOWERCASE")
 
 if __name__ == "__main__":
     pass
