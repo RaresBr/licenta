@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d24df3f7-93fb-4cf8-8d1d-97441ff84ee6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classifierModelPLOS/data/._SUCCESS.crc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classifierModelPLOS/data/.part-00000-2c9512c9-433f-4571-81b5-6cbad8bf5593-c000.snappy.parquet.crc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classifierModelPLOS/data/_SUCCESS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classifierModelPLOS/data/part-00000-2c9512c9-433f-4571-81b5-6cbad8bf5593-c000.snappy.parquet" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classifierModelPLOS/metadata/._SUCCESS.crc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classifierModelPLOS/metadata/.part-00000.crc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classifierModelPLOS/metadata/_SUCCESS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ds_clust/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ds_clust/a1newCSVFullTweets.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ds_clust/ldaResults/._SUCCESS.crc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ds_clust/ldaResults/.part-00000-c358e82a-79fd-4938-a777-c403cfe150ac-c000.snappy.parquet.crc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ds_clust/ldaResults/.part-00001-c358e82a-79fd-4938-a777-c403cfe150ac-c000.snappy.parquet.crc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ds_clust/ldaResults/_SUCCESS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ds_clust/ldaResults/part-00000-c358e82a-79fd-4938-a777-c403cfe150ac-c000.snappy.parquet" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ds_clust/ldaResults/part-00001-c358e82a-79fd-4938-a777-c403cfe150ac-c000.snappy.parquet" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ds_clust/politics.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/a0newCSVFullTweets_cleanLOWERCASE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/a1newCSVFullTweets_cleanLOWERCASE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classifierModelPLOS/metadata/part-00000" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ds_clust/clustering.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ds_clust/ldaresults.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfile.csv.bak" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classifier.py" afterPath="$PROJECT_DIR$/classifier.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_cleanup.py" afterPath="$PROJECT_DIR$/data_cleanup.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spark_streamer.py" afterPath="$PROJECT_DIR$/spark_streamer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/streaming_twitter_api_calls.py" afterPath="$PROJECT_DIR$/streaming_twitter_api_calls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ds_clust/clustering.py" afterPath="$PROJECT_DIR$/ds_clust/clustering.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,7 +29,7 @@
       <file leaf-file-name="data_cleanup.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_cleanup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
+            <state relative-caret-position="629">
               <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -66,7 +41,7 @@
       <file leaf-file-name="spark_streamer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spark_streamer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
+            <state relative-caret-position="306">
               <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="29" selection-end-column="23" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
@@ -78,10 +53,10 @@
       <file leaf-file-name="clustering.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ds_clust/clustering.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="424">
+              <caret line="52" column="117" lean-forward="true" selection-start-line="52" selection-start-column="117" selection-end-line="52" selection-end-column="117" />
               <folding>
-                <element signature="e#0#43#0" expanded="true" />
+                <element signature="e#0#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -169,6 +144,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,7 +161,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -329,14 +304,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.308094" sideWeight="0.5025" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39006343" sideWeight="0.4975" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39006343" sideWeight="0.4975" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -750,7 +724,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data_cleanup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
+        <state relative-caret-position="629">
           <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -760,7 +734,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spark_streamer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
+        <state relative-caret-position="306">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="29" selection-end-column="23" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
@@ -770,10 +744,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ds_clust/clustering.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="424">
+          <caret line="52" column="117" lean-forward="true" selection-start-line="52" selection-start-column="117" selection-end-line="52" selection-end-column="117" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
