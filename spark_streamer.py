@@ -28,7 +28,7 @@ conf.setAppName("TwitterStreamApp")
 
 sc = SparkContext(conf=conf)
 sc.setLogLevel("ERROR")
-model = LogisticRegressionModel.load(sc,"classifierModelLOWERCASE")
+model = LogisticRegressionModel.load(sc,"classifierModelPLOS")
 # create the Streaming Context from the above spark context with interval size 2 seconds
 ssc = StreamingContext(sc, 2)
 

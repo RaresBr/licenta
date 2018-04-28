@@ -94,7 +94,7 @@ def start_server():
     send_tweets_to_spark(resp, conn)
 
 
-# start_server()
+
 
 def get_tweet_from_id(id):
     url = "https://api.twitter.com/1.1/statuses/show.json?id=" + str(id)
@@ -163,4 +163,5 @@ def read_from_csv(file):
             print(line['text'], line['label'])
 
 
-read_tweets_from_file_by_id('newCSV.csv')
+#read_tweets_from_file_by_id('newCSV.csv')
+start_server()

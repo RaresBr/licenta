@@ -31,7 +31,9 @@ def testNLTK(file):
             print('tokenized', tokenized)
 
 
+
 if __name__ == "__main__":
-    printAndSaveTweetTextFromCsv("real.csv")
-    printAndSaveTweetTextFromCsv("fake.csv")
-    testNLTK("real.csv")
+    #printAndSaveTweetTextFromCsv(".\\ds_clust\\politics.csv")
+    #printAndSaveTweetTextFromCsv("a1newCSVFullTweets.csv")
+    #testNLTK("real.csv")
+    pass

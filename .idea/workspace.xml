@@ -2,6 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d24df3f7-93fb-4cf8-8d1d-97441ff84ee6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classifierModelPLOS/data/._SUCCESS.crc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classifierModelPLOS/data/.part-00000-2c9512c9-433f-4571-81b5-6cbad8bf5593-c000.snappy.parquet.crc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classifierModelPLOS/data/_SUCCESS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classifierModelPLOS/data/part-00000-2c9512c9-433f-4571-81b5-6cbad8bf5593-c000.snappy.parquet" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classifierModelPLOS/metadata/._SUCCESS.crc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classifierModelPLOS/metadata/.part-00000.crc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classifierModelPLOS/metadata/_SUCCESS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ds_clust/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ds_clust/a1newCSVFullTweets.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ds_clust/ldaResults/._SUCCESS.crc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ds_clust/ldaResults/.part-00000-c358e82a-79fd-4938-a777-c403cfe150ac-c000.snappy.parquet.crc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ds_clust/ldaResults/.part-00001-c358e82a-79fd-4938-a777-c403cfe150ac-c000.snappy.parquet.crc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ds_clust/ldaResults/_SUCCESS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ds_clust/ldaResults/part-00000-c358e82a-79fd-4938-a777-c403cfe150ac-c000.snappy.parquet" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ds_clust/ldaResults/part-00001-c358e82a-79fd-4938-a777-c403cfe150ac-c000.snappy.parquet" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ds_clust/politics.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/a0newCSVFullTweets_cleanLOWERCASE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/a1newCSVFullTweets_cleanLOWERCASE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classifierModelPLOS/metadata/part-00000" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ds_clust/clustering.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ds_clust/ldaresults.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myfile.csv.bak" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classifier.py" afterPath="$PROJECT_DIR$/classifier.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_cleanup.py" afterPath="$PROJECT_DIR$/data_cleanup.py" />
@@ -20,8 +42,8 @@
       <file leaf-file-name="classifier.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="45" column="27" lean-forward="false" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+            <state relative-caret-position="986">
+              <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -32,8 +54,8 @@
       <file leaf-file-name="data_cleanup.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_cleanup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="40" />
+            <state relative-caret-position="407">
+              <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -44,8 +66,8 @@
       <file leaf-file-name="spark_streamer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spark_streamer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+            <state relative-caret-position="101">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="29" selection-end-column="23" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -53,11 +75,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="streaming_twitter_api_calls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="clustering.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ds_clust/clustering.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="streaming_twitter_api_calls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/streaming_twitter_api_calls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="157" column="0" lean-forward="true" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+            <state relative-caret-position="2346">
+              <caret line="144" column="38" lean-forward="false" selection-start-line="144" selection-start-column="38" selection-end-line="144" selection-end-column="38" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -106,10 +140,12 @@
         <option value="$PROJECT_DIR$/download_tweets_by_id.py" />
         <option value="$PROJECT_DIR$/checkpoint_TwitterApp/classifier.py" />
         <option value="$PROJECT_DIR$/tema3.py" />
-        <option value="$PROJECT_DIR$/data_cleanup.py" />
         <option value="$PROJECT_DIR$/classifier.py" />
-        <option value="$PROJECT_DIR$/spark_streamer.py" />
         <option value="$PROJECT_DIR$/streaming_twitter_api_calls.py" />
+        <option value="$PROJECT_DIR$/spark_streamer.py" />
+        <option value="$PROJECT_DIR$/clustering.py" />
+        <option value="$PROJECT_DIR$/data_cleanup.py" />
+        <option value="$PROJECT_DIR$/ds_clust/clustering.py" />
       </list>
     </option>
   </component>
@@ -133,8 +169,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,10 +176,17 @@
               <item name="streamer" type="b2602c69:ProjectViewProjectNode" />
               <item name="streamer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="streamer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="streamer" type="462c0819:PsiDirectoryNode" />
+              <item name="ds_clust" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -154,6 +195,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rares\Desktop\licenta\streamer\ds_clust" />
       <recent name="C:\Users\rares\Desktop\licenta\streamer" />
     </key>
   </component>
@@ -169,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.streaming_twitter_api_calls">
+  <component name="RunManager" selected="Python.clustering">
     <configuration name="classifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -183,6 +225,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="februarie" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classifier.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="clustering" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ds_clust" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="februarie" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ds_clust/clustering.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -238,37 +297,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="tema1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../an3_sem2/cn/CN" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="februarie" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../an3_sem2/cn/CN/tema1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.streaming_twitter_api_calls" />
-      <item index="1" class="java.lang.String" itemvalue="Python.tema1" />
-      <item index="2" class="java.lang.String" itemvalue="Python.spark_streamer" />
-      <item index="3" class="java.lang.String" itemvalue="Python.data_cleanup" />
-      <item index="4" class="java.lang.String" itemvalue="Python.classifier" />
+      <item index="1" class="java.lang.String" itemvalue="Python.spark_streamer" />
+      <item index="2" class="java.lang.String" itemvalue="Python.data_cleanup" />
+      <item index="3" class="java.lang.String" itemvalue="Python.classifier" />
+      <item index="4" class="java.lang.String" itemvalue="Python.clustering" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.streaming_twitter_api_calls" />
-        <item index="1" class="java.lang.String" itemvalue="Python.spark_streamer" />
-        <item index="2" class="java.lang.String" itemvalue="Python.classifier" />
-        <item index="3" class="java.lang.String" itemvalue="Python.data_cleanup" />
-        <item index="4" class="java.lang.String" itemvalue="Python.tema1" />
+        <item index="0" class="java.lang.String" itemvalue="Python.clustering" />
+        <item index="1" class="java.lang.String" itemvalue="Python.data_cleanup" />
+        <item index="2" class="java.lang.String" itemvalue="Python.spark_streamer" />
+        <item index="3" class="java.lang.String" itemvalue="Python.streaming_twitter_api_calls" />
+        <item index="4" class="java.lang.String" itemvalue="Python.classifier" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +336,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.308094" sideWeight="0.5025" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35835096" sideWeight="0.4975" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39006343" sideWeight="0.4975" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -319,16 +361,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spark_streamer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="38" column="43" lean-forward="false" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -696,42 +728,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spark_streamer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="45" column="27" lean-forward="false" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+        <state relative-caret-position="986">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_cleanup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/streaming_twitter_api_calls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="157" column="0" lean-forward="true" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+        <state relative-caret-position="2346">
+          <caret line="144" column="38" lean-forward="false" selection-start-line="144" selection-start-column="38" selection-end-line="144" selection-end-column="38" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_cleanup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spark_streamer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="29" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ds_clust/clustering.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
