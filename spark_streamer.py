@@ -13,6 +13,8 @@ from pyspark.sql.types import StringType, StructType, StructField
 
 from nltk.tokenize import TweetTokenizer
 import csv
+import json
+
 
 
 tokenizer = TweetTokenizer(strip_handles=True,reduce_len=True)
@@ -42,6 +44,43 @@ def print_rdd_with_prediction(rdd):
                 writer.writerow([tweet,prediction])
     print(20 * "-")
 
+def print_rdd(rdd):
+    print("RECORD: ")
+    if not rdd.isEmpty():
+        tweets = rdd.collect()
+        for tweet in tweets:
+            tweet = json.loads(tweet)
+            words = list(map(lambda x: x.lower(), tokenizer.tokenize(tweet['text'])))
+            print('one tweet: ', words)
+            print('location', tweet['coordinates']['coordinates'])
+            hashed = tf.transform(words)
+            print('transformed', hashed)
+            print('\n')
+    print(20 * "-")
+
+def print_with_location_rdd_with_prediction(rdd):
+    print("RECORD: ")
+    global  bigDF
+    if not rdd.isEmpty():
+
+        #bigDF = bigDF.unionAll(sqlContext.createDataFrame(rdd,StringType()))
+        #print(bigDF.count())
+        tweets = rdd.collect()
+        with open('liveTweetsLocation.csv', 'a',encoding='utf-8') as csvfile:
+            writer = csv.writer(csvfile)
+            for tweet in tweets:
+                tweet = json.loads(tweet)
+                words = list(map(lambda x: x.lower(), tokenizer.tokenize(tweet['text'])))
+                print('one tweet: ', words)
+                hashed = tf.transform(words)
+                print('transformed',hashed )
+                prediction = model.predict(hashed)
+                print('prediction ', prediction)
+                coord = tweet['coordinates']['coordinates']
+                print('location', coord)
+                print('\n')
+                writer.writerow([tweet['text'],prediction,coord])
+    print(20 * "-")
 
 conf = SparkConf()
 conf.setAppName("TwitterStreamApp")
@@ -60,7 +99,9 @@ dataStream = ssc.socketTextStream("localhost", 9999)
 
 # split tweets
 tweets = dataStream.flatMap(lambda line: line.split("\n"))
-tweets.foreachRDD(print_rdd_with_prediction)
+#tweets.foreachRDD(print_rdd_with_prediction)
+#tweets.foreachRDD(print_rdd)
+tweets.foreachRDD(print_with_location_rdd_with_prediction)
 # tweets.pprint()
 notVisited = True
 

@@ -4,6 +4,7 @@ import json
 import os
 import socket
 import csv
+import pickle
 import pandas as pd
 
 ACCESS_TOKEN = '168495059-UE3cKbDqaIuKw6ffgNhxBN5zavHWA2dM5Qr4p72Y'
@@ -23,7 +24,13 @@ def stream_tweets():
     response = requests.get(query_url, auth=auth_worker, stream=True)
     print(query_url, response)
     return response
-
+def stream_tweets_in_usa():
+    url = 'https://stream.twitter.com/1.1/statuses/filter.json'
+    query_data = [('language', 'en'), ('locations', '-136,15,-45,55'), ('track', '#')]
+    query_url = url + '?' + '&'.join([str(t[0]) + '=' + str(t[1]) for t in query_data])
+    response = requests.get(query_url, auth=auth_worker, stream=True)
+    print(query_url, response)
+    return response
 
 # fp = open('tweets.json', 'wb+')
 
@@ -55,11 +62,31 @@ def send_tweets_to_spark(http_response, connection):
     for line in http_response.iter_lines():
         try:
             full_tweet = json.loads(line)
+
             tweet_text = full_tweet['text']
             print('full tweet:', full_tweet)
             print('tweet text:', tweet_text)
             print('-' * 10)
             connection.send(bytearray(str(tweet_text) + '\n', 'utf8'))
+        except Exception as e:
+            print(e)
+
+def send_tweets_to_spark_with_location(http_response, connection):
+    for line in http_response.iter_lines():
+        try:
+            full_tweet = json.loads(line)
+            tweet_text = full_tweet['text']
+
+            #print('full tweet:', full_tweet)
+            #print('tweet text:', tweet_text)
+            print('-' * 10)
+            my_dict = dict([('text', full_tweet['text']), ('coordinates', full_tweet['coordinates'])])
+            if my_dict['coordinates'] is not None:
+                print(my_dict)
+                str_my_dict = json.dumps(my_dict)
+                print(str_my_dict)
+                connection.send(bytearray(str(str_my_dict) + '\n', 'utf8'))
+
         except Exception as e:
             print(e)
 
@@ -82,7 +109,7 @@ def read_tweets_forever(response):
 
 # read_json()
 
-def start_server():
+def start_server(loc = False):
     conn = None
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.bind((IP, PORT))
@@ -91,7 +118,10 @@ def start_server():
     conn, addr = s.accept()
     print("Connected. Starting getting tweets.")
     resp = stream_tweets()
-    send_tweets_to_spark(resp, conn)
+    if loc:
+        send_tweets_to_spark_with_location(resp, conn)
+    else:
+        send_tweets_to_spark(resp, conn)
 
 
 
@@ -164,4 +194,4 @@ def read_from_csv(file):
 
 
 #read_tweets_from_file_by_id('newCSV.csv')
-start_server()
+start_server(loc = True)
