@@ -17,7 +17,7 @@ from pyspark.sql import SparkSession
 from pyspark.sql import SQLContext
 from pyspark.ml.clustering import GaussianMixture
 import numpy as np
-def kmeans_from_csv(file):
+def kmeans_from_csv(file,outfile):
     df = sqlContext.read.format("csv").option("header", "true").option("mode", "DROPMALFORMED").load \
         (file)
     df.show()
@@ -36,7 +36,7 @@ def kmeans_from_csv(file):
     results.groupBy("prediction").count().show()  # Note "display" is for Databricks; use show() for OSS Apache Spark
     # results.filter(results.prediction == 1).show(200,False)
     results.show()
-    results.toPandas().to_csv('liveTweetsKMeans.csv')
+    results.toPandas().to_csv(outfile)
 
 def kmeans_with_pipeline(df,pipeline):
     model = pipeline.fit(df)
@@ -182,7 +182,7 @@ if __name__ == '__main__':
     #ldaresults()
     #gmmresults()
     #kmeans_with_loading()
-    kmeans_from_csv("..\liveTweets.csv")
+    kmeans_from_csv("..\liveTweetsLocation.csv","liveTweetsLocationKmeans")
 
 
 

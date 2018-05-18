@@ -1,0 +1,1989 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_e0f3f6dfd08e4ad388c2d547928ee4a3 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e0f3f6dfd08e4ad388c2d547928ee4a3" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_e0f3f6dfd08e4ad388c2d547928ee4a3 = L.map(
+                                  'map_e0f3f6dfd08e4ad388c2d547928ee4a3',
+                                  {center: [45.5236,-122.675],
+                                  zoom: 10,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_59060503c74e4b3a9522b77c169d95a4 = L.tileLayer(
+                'https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+        
+    
+
+            var marker_5db525668cbf4701948a7a18c9c5d868 = L.marker(
+                [40.99962011,28.77226987],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_44619234c63a46cab5f7a155a8711e71 = L.popup({maxWidth: '300'});
+
+            
+                var html_f279307c751f467d8d297ee71f9a70f4 = $('<div id="html_f279307c751f467d8d297ee71f9a70f4" style="width: 100.0%; height: 100.0%;">I&#39;m at Cebeci Home&#39;s in ?stanbul https://t.co/l8mtLk7LiV</div>')[0];
+                popup_44619234c63a46cab5f7a155a8711e71.setContent(html_f279307c751f467d8d297ee71f9a70f4);
+            
+
+            marker_5db525668cbf4701948a7a18c9c5d868.bindPopup(popup_44619234c63a46cab5f7a155a8711e71);
+
+            
+        
+    
+
+            var marker_bea80cbbac184492addbf07e52efe41c = L.marker(
+                [40.99962011,28.77226987],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_6de8bce39fbb421f8f86cc867a38a0b2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bea80cbbac184492addbf07e52efe41c.setIcon(icon_6de8bce39fbb421f8f86cc867a38a0b2);
+            
+    
+            var popup_760f6eb2b43a40a8acf0bc082fc63a7e = L.popup({maxWidth: '300'});
+
+            
+                var html_77220243236a49b4a9b76a394d109b00 = $('<div id="html_77220243236a49b4a9b76a394d109b00" style="width: 100.0%; height: 100.0%;">I&#39;m at Cebeci Home&#39;s in ?stanbul https://t.co/l8mtLk7LiV {Cluster:3}</div>')[0];
+                popup_760f6eb2b43a40a8acf0bc082fc63a7e.setContent(html_77220243236a49b4a9b76a394d109b00);
+            
+
+            marker_bea80cbbac184492addbf07e52efe41c.bindPopup(popup_760f6eb2b43a40a8acf0bc082fc63a7e);
+
+            
+        
+    
+
+            var marker_c87287e399064c38b90f63d42b0db284 = L.marker(
+                [41.8782865,-93.8275718],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_2c41d2a7d0814ca3998ab114714d724d = L.popup({maxWidth: '300'});
+
+            
+                var html_35373e2e17aa4625bc74ebfa37d8e362 = $('<div id="html_35373e2e17aa4625bc74ebfa37d8e362" style="width: 100.0%; height: 100.0%;">See our latest #Madrid, IA #job and click to apply: CMA, LPN, RN - Madrid Family Practice - FT - Days -… https://t.co/pqYdM3YfXp</div>')[0];
+                popup_2c41d2a7d0814ca3998ab114714d724d.setContent(html_35373e2e17aa4625bc74ebfa37d8e362);
+            
+
+            marker_c87287e399064c38b90f63d42b0db284.bindPopup(popup_2c41d2a7d0814ca3998ab114714d724d);
+
+            
+        
+    
+
+            var marker_3b809c861dce46698c491ddbd00240a5 = L.marker(
+                [41.8782865,-93.8275718],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_b5d17a18d6684463a4ffae9ae8b1ee90 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3b809c861dce46698c491ddbd00240a5.setIcon(icon_b5d17a18d6684463a4ffae9ae8b1ee90);
+            
+    
+            var popup_804744f3e3c149f6b093cab591db4741 = L.popup({maxWidth: '300'});
+
+            
+                var html_0afb83a9353e42cdae7b3eb8a4550d83 = $('<div id="html_0afb83a9353e42cdae7b3eb8a4550d83" style="width: 100.0%; height: 100.0%;">See our latest #Madrid, IA #job and click to apply: CMA, LPN, RN - Madrid Family Practice - FT - Days -… https://t.co/pqYdM3YfXp {Cluster:3}</div>')[0];
+                popup_804744f3e3c149f6b093cab591db4741.setContent(html_0afb83a9353e42cdae7b3eb8a4550d83);
+            
+
+            marker_3b809c861dce46698c491ddbd00240a5.bindPopup(popup_804744f3e3c149f6b093cab591db4741);
+
+            
+        
+    
+
+            var marker_e0e3b2d3d0704465b9caf03ef64fdbf5 = L.marker(
+                [19.0728,72.8826],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_3b09148808b34f698cb26e9f129c072f = L.popup({maxWidth: '300'});
+
+            
+                var html_d2e5253562a347e2aa5d6e315dc16c20 = $('<div id="html_d2e5253562a347e2aa5d6e315dc16c20" style="width: 100.0%; height: 100.0%;">https://t.co/PM8Lq7jLkG https://t.co/lp1qxAZy8X&#34;</div>')[0];
+                popup_3b09148808b34f698cb26e9f129c072f.setContent(html_d2e5253562a347e2aa5d6e315dc16c20);
+            
+
+            marker_e0e3b2d3d0704465b9caf03ef64fdbf5.bindPopup(popup_3b09148808b34f698cb26e9f129c072f);
+
+            
+        
+    
+
+            var marker_438f8a7fb09248c6a38123382de00833 = L.marker(
+                [19.0728,72.8826],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_fc4140d708c743c8a6adbf862dc77153 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_438f8a7fb09248c6a38123382de00833.setIcon(icon_fc4140d708c743c8a6adbf862dc77153);
+            
+    
+            var popup_e4c2f8071fd14ac0b4bd286b7ae09bcd = L.popup({maxWidth: '300'});
+
+            
+                var html_1a8a4204838449d086b5c4f10a0af497 = $('<div id="html_1a8a4204838449d086b5c4f10a0af497" style="width: 100.0%; height: 100.0%;">https://t.co/PM8Lq7jLkG https://t.co/lp1qxAZy8X&#34; {Cluster:3}</div>')[0];
+                popup_e4c2f8071fd14ac0b4bd286b7ae09bcd.setContent(html_1a8a4204838449d086b5c4f10a0af497);
+            
+
+            marker_438f8a7fb09248c6a38123382de00833.bindPopup(popup_e4c2f8071fd14ac0b4bd286b7ae09bcd);
+
+            
+        
+    
+
+            var marker_736675a109e5401e9448dd6cb24eb453 = L.marker(
+                [36.68270221,-100.12051662],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_40a5eb8578934b8bb6239acd546d471b = L.popup({maxWidth: '300'});
+
+            
+                var html_f70ce5802ef54c22acbdf393681b673a = $('<div id="html_f70ce5802ef54c22acbdf393681b673a" style="width: 100.0%; height: 100.0%;">Severe Thunderstorm Warning continues for Follett TX, Gate OK, Knowles OK until 12:45 PM CDT https://t.co/8Ed7alIhBU</div>')[0];
+                popup_40a5eb8578934b8bb6239acd546d471b.setContent(html_f70ce5802ef54c22acbdf393681b673a);
+            
+
+            marker_736675a109e5401e9448dd6cb24eb453.bindPopup(popup_40a5eb8578934b8bb6239acd546d471b);
+
+            
+        
+    
+
+            var marker_65bac0eed0cd409b8096af5b59d2c315 = L.marker(
+                [36.68270221,-100.12051662],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_e85bdb63a28d495b8167e20e6a9a1949 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_65bac0eed0cd409b8096af5b59d2c315.setIcon(icon_e85bdb63a28d495b8167e20e6a9a1949);
+            
+    
+            var popup_301ad744662f4003952e48c8418b285c = L.popup({maxWidth: '300'});
+
+            
+                var html_bc64857d0f474ed5be2165788a006ed4 = $('<div id="html_bc64857d0f474ed5be2165788a006ed4" style="width: 100.0%; height: 100.0%;">Severe Thunderstorm Warning continues for Follett TX, Gate OK, Knowles OK until 12:45 PM CDT https://t.co/8Ed7alIhBU {Cluster:3}</div>')[0];
+                popup_301ad744662f4003952e48c8418b285c.setContent(html_bc64857d0f474ed5be2165788a006ed4);
+            
+
+            marker_65bac0eed0cd409b8096af5b59d2c315.bindPopup(popup_301ad744662f4003952e48c8418b285c);
+
+            
+        
+    
+
+            var marker_73f9bf7217ba4769b21ee9f27a17457b = L.marker(
+                [18.46481774,-69.91036566],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_22bebc33a0f14ec887c663a214d7a674 = L.popup({maxWidth: '300'});
+
+            
+                var html_02c9876dcd15465681e48df6fc0b34ad = $('<div id="html_02c9876dcd15465681e48df6fc0b34ad" style="width: 100.0%; height: 100.0%;">I&#39;m at Little Caesars in Santo Domingo, Nacional https://t.co/rz4h9EA5I2</div>')[0];
+                popup_22bebc33a0f14ec887c663a214d7a674.setContent(html_02c9876dcd15465681e48df6fc0b34ad);
+            
+
+            marker_73f9bf7217ba4769b21ee9f27a17457b.bindPopup(popup_22bebc33a0f14ec887c663a214d7a674);
+
+            
+        
+    
+
+            var marker_cfbe9282f6a846c7926b99ae5dc115d8 = L.marker(
+                [18.46481774,-69.91036566],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_3b48bd752ff54c7fbedf5bdffaaa789f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cfbe9282f6a846c7926b99ae5dc115d8.setIcon(icon_3b48bd752ff54c7fbedf5bdffaaa789f);
+            
+    
+            var popup_c251026082a24a90a2fb853e62f1d32f = L.popup({maxWidth: '300'});
+
+            
+                var html_4060c024bac7420abce7c36149989f5e = $('<div id="html_4060c024bac7420abce7c36149989f5e" style="width: 100.0%; height: 100.0%;">I&#39;m at Little Caesars in Santo Domingo, Nacional https://t.co/rz4h9EA5I2 {Cluster:1}</div>')[0];
+                popup_c251026082a24a90a2fb853e62f1d32f.setContent(html_4060c024bac7420abce7c36149989f5e);
+            
+
+            marker_cfbe9282f6a846c7926b99ae5dc115d8.bindPopup(popup_c251026082a24a90a2fb853e62f1d32f);
+
+            
+        
+    
+
+            var marker_ee12390b08604fef83f8812b404c8536 = L.marker(
+                [37.64,-122.49],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_f0af0b8877c942aabfc6a535aeeb3f68 = L.popup({maxWidth: '300'});
+
+            
+                var html_e19bb3543d114132a6cf722f7e8bbe26 = $('<div id="html_e19bb3543d114132a6cf722f7e8bbe26" style="width: 100.0%; height: 100.0%;">humidity down 87% -&amp;gt; 82%&#34;</div>')[0];
+                popup_f0af0b8877c942aabfc6a535aeeb3f68.setContent(html_e19bb3543d114132a6cf722f7e8bbe26);
+            
+
+            marker_ee12390b08604fef83f8812b404c8536.bindPopup(popup_f0af0b8877c942aabfc6a535aeeb3f68);
+
+            
+        
+    
+
+            var marker_3197de7f23d7480cac289a27055c3d85 = L.marker(
+                [37.64,-122.49],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_2e51a6b91c1b4c6ba454ce85da3c62dc = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3197de7f23d7480cac289a27055c3d85.setIcon(icon_2e51a6b91c1b4c6ba454ce85da3c62dc);
+            
+    
+            var popup_cd175fac0baf40f7a0f610347e1f51d1 = L.popup({maxWidth: '300'});
+
+            
+                var html_d96a0b2f7b054f8cac692fa94d76faf7 = $('<div id="html_d96a0b2f7b054f8cac692fa94d76faf7" style="width: 100.0%; height: 100.0%;">humidity down 87% -&amp;gt; 82%&#34; {Cluster:3}</div>')[0];
+                popup_cd175fac0baf40f7a0f610347e1f51d1.setContent(html_d96a0b2f7b054f8cac692fa94d76faf7);
+            
+
+            marker_3197de7f23d7480cac289a27055c3d85.bindPopup(popup_cd175fac0baf40f7a0f610347e1f51d1);
+
+            
+        
+    
+
+            var marker_95976566178644acb7fae07b37c1e6d7 = L.marker(
+                [29.31203659,47.81136377],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_28cbe191293c4367b577ba5e3ec1bc02 = L.popup({maxWidth: '300'});
+
+            
+                var html_3641f420490b42c88b8e9b1f6240ff8d = $('<div id="html_3641f420490b42c88b8e9b1f6240ff8d" style="width: 100.0%; height: 100.0%;">I&#39;m at Starbucks Trolley in Kuwait, Al JAHRAA ROAD ( AL-DOHA) https://t.co/iODFMKkTts</div>')[0];
+                popup_28cbe191293c4367b577ba5e3ec1bc02.setContent(html_3641f420490b42c88b8e9b1f6240ff8d);
+            
+
+            marker_95976566178644acb7fae07b37c1e6d7.bindPopup(popup_28cbe191293c4367b577ba5e3ec1bc02);
+
+            
+        
+    
+
+            var marker_33ac0f40f98c4f9f88dc883253b7d9ac = L.marker(
+                [29.31203659,47.81136377],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_4202eddfebd54e93aadad0f8be09c678 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_33ac0f40f98c4f9f88dc883253b7d9ac.setIcon(icon_4202eddfebd54e93aadad0f8be09c678);
+            
+    
+            var popup_128c11ebe61d4360b5f048451dd3f00b = L.popup({maxWidth: '300'});
+
+            
+                var html_edf3ebfd4af44aa8b1dda77cbfcbc7e0 = $('<div id="html_edf3ebfd4af44aa8b1dda77cbfcbc7e0" style="width: 100.0%; height: 100.0%;">I&#39;m at Starbucks Trolley in Kuwait, Al JAHRAA ROAD ( AL-DOHA) https://t.co/iODFMKkTts {Cluster:3}</div>')[0];
+                popup_128c11ebe61d4360b5f048451dd3f00b.setContent(html_edf3ebfd4af44aa8b1dda77cbfcbc7e0);
+            
+
+            marker_33ac0f40f98c4f9f88dc883253b7d9ac.bindPopup(popup_128c11ebe61d4360b5f048451dd3f00b);
+
+            
+        
+    
+
+            var marker_5c6215aec80d47859122a87780e4c5ac = L.marker(
+                [6.45306,3.39583],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_e7407e9ffe8f49c5ac2f09bd3682def3 = L.popup({maxWidth: '300'});
+
+            
+                var html_de830a002ba04a55b5a6763258a0ce4b = $('<div id="html_de830a002ba04a55b5a6763258a0ce4b" style="width: 100.0%; height: 100.0%;">https://t.co/le4lpGqeK5 https://t.co/GamV6dYNML&#34;</div>')[0];
+                popup_e7407e9ffe8f49c5ac2f09bd3682def3.setContent(html_de830a002ba04a55b5a6763258a0ce4b);
+            
+
+            marker_5c6215aec80d47859122a87780e4c5ac.bindPopup(popup_e7407e9ffe8f49c5ac2f09bd3682def3);
+
+            
+        
+    
+
+            var marker_b99ad17bac2d4cdba320daab50a1a1dc = L.marker(
+                [6.45306,3.39583],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_930f5f6ea5fd4ea4b48f1339c7657920 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b99ad17bac2d4cdba320daab50a1a1dc.setIcon(icon_930f5f6ea5fd4ea4b48f1339c7657920);
+            
+    
+            var popup_9654f7d193e64ae9b6dfaf485ad1efa4 = L.popup({maxWidth: '300'});
+
+            
+                var html_aede9f933a434b7994f83b67b42b0d2c = $('<div id="html_aede9f933a434b7994f83b67b42b0d2c" style="width: 100.0%; height: 100.0%;">https://t.co/le4lpGqeK5 https://t.co/GamV6dYNML&#34; {Cluster:3}</div>')[0];
+                popup_9654f7d193e64ae9b6dfaf485ad1efa4.setContent(html_aede9f933a434b7994f83b67b42b0d2c);
+            
+
+            marker_b99ad17bac2d4cdba320daab50a1a1dc.bindPopup(popup_9654f7d193e64ae9b6dfaf485ad1efa4);
+
+            
+        
+    
+
+            var marker_1e2ba846a4004b009a599b98c9dd7e28 = L.marker(
+                [40.7597501,-73.9774474],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_c5347d30a1f74ffa856b2e9b77a1af99 = L.popup({maxWidth: '300'});
+
+            
+                var html_146d3f28dced4e9fb863966b23f3ca42 = $('<div id="html_146d3f28dced4e9fb863966b23f3ca42" style="width: 100.0%; height: 100.0%;">Ommegang Rare Vos on tap now. https://t.co/9iGHeHpD99 @BreweryOmmegang #YankeesSteakhouse #BeerMenus</div>')[0];
+                popup_c5347d30a1f74ffa856b2e9b77a1af99.setContent(html_146d3f28dced4e9fb863966b23f3ca42);
+            
+
+            marker_1e2ba846a4004b009a599b98c9dd7e28.bindPopup(popup_c5347d30a1f74ffa856b2e9b77a1af99);
+
+            
+        
+    
+
+            var marker_bc15ab5852e148af90c62465a11bff20 = L.marker(
+                [40.7597501,-73.9774474],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_9669022c98184767b770a85476ba54ec = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bc15ab5852e148af90c62465a11bff20.setIcon(icon_9669022c98184767b770a85476ba54ec);
+            
+    
+            var popup_8a1513166a0e4b2c96eb296274225fd1 = L.popup({maxWidth: '300'});
+
+            
+                var html_495d855b4ba14c7dbb9509b38c022373 = $('<div id="html_495d855b4ba14c7dbb9509b38c022373" style="width: 100.0%; height: 100.0%;">Ommegang Rare Vos on tap now. https://t.co/9iGHeHpD99 @BreweryOmmegang #YankeesSteakhouse #BeerMenus {Cluster:3}</div>')[0];
+                popup_8a1513166a0e4b2c96eb296274225fd1.setContent(html_495d855b4ba14c7dbb9509b38c022373);
+            
+
+            marker_bc15ab5852e148af90c62465a11bff20.bindPopup(popup_8a1513166a0e4b2c96eb296274225fd1);
+
+            
+        
+    
+
+            var marker_c04d8b8f272e42489ee51f39d610282a = L.marker(
+                [37.41776358,-122.14516897],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_0a57f7f1623c4aff8b522d4cc9641eaf = L.popup({maxWidth: '300'});
+
+            
+                var html_fbce0d458d0c4bf8be8806e98db13d31 = $('<div id="html_fbce0d458d0c4bf8be8806e98db13d31" style="width: 100.0%; height: 100.0%;">@SFoskett @rubrikInc @emad_younis @CTOAdvisor @DeepStorageNet @snoopj123 @ExchangeGoddess @timmycarr @vLeahSchoeb… https://t.co/BOp7Ql7AtP</div>')[0];
+                popup_0a57f7f1623c4aff8b522d4cc9641eaf.setContent(html_fbce0d458d0c4bf8be8806e98db13d31);
+            
+
+            marker_c04d8b8f272e42489ee51f39d610282a.bindPopup(popup_0a57f7f1623c4aff8b522d4cc9641eaf);
+
+            
+        
+    
+
+            var marker_c8d941119db8432daf6e92cf38eb70b4 = L.marker(
+                [37.41776358,-122.14516897],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_8bc9e1d905384ca6a8ad1b73cffca24b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c8d941119db8432daf6e92cf38eb70b4.setIcon(icon_8bc9e1d905384ca6a8ad1b73cffca24b);
+            
+    
+            var popup_c1efee632aa74ca2ab38a6f2b92260db = L.popup({maxWidth: '300'});
+
+            
+                var html_bda749c6151b4f848dd61211239f6584 = $('<div id="html_bda749c6151b4f848dd61211239f6584" style="width: 100.0%; height: 100.0%;">@SFoskett @rubrikInc @emad_younis @CTOAdvisor @DeepStorageNet @snoopj123 @ExchangeGoddess @timmycarr @vLeahSchoeb… https://t.co/BOp7Ql7AtP {Cluster:3}</div>')[0];
+                popup_c1efee632aa74ca2ab38a6f2b92260db.setContent(html_bda749c6151b4f848dd61211239f6584);
+            
+
+            marker_c8d941119db8432daf6e92cf38eb70b4.bindPopup(popup_c1efee632aa74ca2ab38a6f2b92260db);
+
+            
+        
+    
+
+            var marker_af02e85e0c334a3eab66500198e58a0e = L.marker(
+                [38.96939924,-95.30818159],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_657aecf926fc458da4a4839ab7c4d990 = L.popup({maxWidth: '300'});
+
+            
+                var html_404b99981e7347dea521ac85007c735c = $('<div id="html_404b99981e7347dea521ac85007c735c" style="width: 100.0%; height: 100.0%;">I&#39;m at Johnny&#39;s Tavern in Lawrence, KS https://t.co/1aPe6Xsr81</div>')[0];
+                popup_657aecf926fc458da4a4839ab7c4d990.setContent(html_404b99981e7347dea521ac85007c735c);
+            
+
+            marker_af02e85e0c334a3eab66500198e58a0e.bindPopup(popup_657aecf926fc458da4a4839ab7c4d990);
+
+            
+        
+    
+
+            var marker_3693efa18b744c6e9ee1989f6430c01a = L.marker(
+                [38.96939924,-95.30818159],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_e81230e5fc7d4c5db44ee285466777ba = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3693efa18b744c6e9ee1989f6430c01a.setIcon(icon_e81230e5fc7d4c5db44ee285466777ba);
+            
+    
+            var popup_89ed4835f1794deaa43ecba9130342c0 = L.popup({maxWidth: '300'});
+
+            
+                var html_eff948c460a14633ae56e5185e47e336 = $('<div id="html_eff948c460a14633ae56e5185e47e336" style="width: 100.0%; height: 100.0%;">I&#39;m at Johnny&#39;s Tavern in Lawrence, KS https://t.co/1aPe6Xsr81 {Cluster:3}</div>')[0];
+                popup_89ed4835f1794deaa43ecba9130342c0.setContent(html_eff948c460a14633ae56e5185e47e336);
+            
+
+            marker_3693efa18b744c6e9ee1989f6430c01a.bindPopup(popup_89ed4835f1794deaa43ecba9130342c0);
+
+            
+        
+    
+
+            var marker_8e7f556256b64ce2ab4c1e736c46e1de = L.marker(
+                [48.84894,9.11486],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_b3cd65f14da84207917a952d2d34255e = L.popup({maxWidth: '300'});
+
+            
+                var html_e962a87bf7db425fbafd1081a678ede8 = $('<div id="html_e962a87bf7db425fbafd1081a678ede8" style="width: 100.0%; height: 100.0%;">Want to work in #KorntalMünchingen, BW? View our latest opening: https://t.co/eR5vMv2q8i #technology #Job #Jobs #Hiring</div>')[0];
+                popup_b3cd65f14da84207917a952d2d34255e.setContent(html_e962a87bf7db425fbafd1081a678ede8);
+            
+
+            marker_8e7f556256b64ce2ab4c1e736c46e1de.bindPopup(popup_b3cd65f14da84207917a952d2d34255e);
+
+            
+        
+    
+
+            var marker_e56bd74f381c4bf7b25aafee82044298 = L.marker(
+                [48.84894,9.11486],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_b0e949bbc81a42aba01f7e8dc1474d95 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e56bd74f381c4bf7b25aafee82044298.setIcon(icon_b0e949bbc81a42aba01f7e8dc1474d95);
+            
+    
+            var popup_262366ebca394687bb679cdb146663cc = L.popup({maxWidth: '300'});
+
+            
+                var html_dc0feebc89964865a7c5ad3fc4f1f8d9 = $('<div id="html_dc0feebc89964865a7c5ad3fc4f1f8d9" style="width: 100.0%; height: 100.0%;">Want to work in #KorntalMünchingen, BW? View our latest opening: https://t.co/eR5vMv2q8i #technology #Job #Jobs #Hiring {Cluster:3}</div>')[0];
+                popup_262366ebca394687bb679cdb146663cc.setContent(html_dc0feebc89964865a7c5ad3fc4f1f8d9);
+            
+
+            marker_e56bd74f381c4bf7b25aafee82044298.bindPopup(popup_262366ebca394687bb679cdb146663cc);
+
+            
+        
+    
+
+            var marker_70bff243729e43f98108e1a6ff038c8b = L.marker(
+                [41.64,-4.73],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_83fa30f8cb8442b0b2757d12eae2ca24 = L.popup({maxWidth: '300'});
+
+            
+                var html_ad237ba98e1146bd9456d277613b574f = $('<div id="html_ad237ba98e1146bd9456d277613b574f" style="width: 100.0%; height: 100.0%;">wind 2kmh -&amp;gt; 6kmh&#34;</div>')[0];
+                popup_83fa30f8cb8442b0b2757d12eae2ca24.setContent(html_ad237ba98e1146bd9456d277613b574f);
+            
+
+            marker_70bff243729e43f98108e1a6ff038c8b.bindPopup(popup_83fa30f8cb8442b0b2757d12eae2ca24);
+
+            
+        
+    
+
+            var marker_4db57af26c954191a1b3a8055a5a816c = L.marker(
+                [41.64,-4.73],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_d71fd480f06543b3a72a69419f2634f6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4db57af26c954191a1b3a8055a5a816c.setIcon(icon_d71fd480f06543b3a72a69419f2634f6);
+            
+    
+            var popup_b7da59f2bbb746a3a8e814edaaa98335 = L.popup({maxWidth: '300'});
+
+            
+                var html_1f351c92e7b64de2943f5409eeb01432 = $('<div id="html_1f351c92e7b64de2943f5409eeb01432" style="width: 100.0%; height: 100.0%;">wind 2kmh -&amp;gt; 6kmh&#34; {Cluster:4}</div>')[0];
+                popup_b7da59f2bbb746a3a8e814edaaa98335.setContent(html_1f351c92e7b64de2943f5409eeb01432);
+            
+
+            marker_4db57af26c954191a1b3a8055a5a816c.bindPopup(popup_b7da59f2bbb746a3a8e814edaaa98335);
+
+            
+        
+    
+
+            var marker_de23ba1f146e49798a0a5af8dc524b89 = L.marker(
+                [20.08950116,-98.74640845],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_4a08e24109ae46a4bdf4ba3113e2880a = L.popup({maxWidth: '300'});
+
+            
+                var html_a7fb26343e37432380a36907cf4b51c0 = $('<div id="html_a7fb26343e37432380a36907cf4b51c0" style="width: 100.0%; height: 100.0%;">I&#39;m at Honda Argenta in Pachuca, HGO w/ @helenpalmas https://t.co/sR5fK7hL0w https://t.co/pvJufelDef</div>')[0];
+                popup_4a08e24109ae46a4bdf4ba3113e2880a.setContent(html_a7fb26343e37432380a36907cf4b51c0);
+            
+
+            marker_de23ba1f146e49798a0a5af8dc524b89.bindPopup(popup_4a08e24109ae46a4bdf4ba3113e2880a);
+
+            
+        
+    
+
+            var marker_16f3c84f06144e2d921c906715e9374c = L.marker(
+                [20.08950116,-98.74640845],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_52a349fe39d34a50adcd158143cfd0d3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_16f3c84f06144e2d921c906715e9374c.setIcon(icon_52a349fe39d34a50adcd158143cfd0d3);
+            
+    
+            var popup_b7225d2a22184fe0b9a850366c0c8fae = L.popup({maxWidth: '300'});
+
+            
+                var html_85b66aac4132423b96b7b5255665eab6 = $('<div id="html_85b66aac4132423b96b7b5255665eab6" style="width: 100.0%; height: 100.0%;">I&#39;m at Honda Argenta in Pachuca, HGO w/ @helenpalmas https://t.co/sR5fK7hL0w https://t.co/pvJufelDef {Cluster:5}</div>')[0];
+                popup_b7225d2a22184fe0b9a850366c0c8fae.setContent(html_85b66aac4132423b96b7b5255665eab6);
+            
+
+            marker_16f3c84f06144e2d921c906715e9374c.bindPopup(popup_b7225d2a22184fe0b9a850366c0c8fae);
+
+            
+        
+    
+
+            var marker_f3943b8dfdb64539b3ca133975c045f9 = L.marker(
+                [47.9417388,-122.2334664],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_eb39552544fa45fdbf2c92403351a7ba = L.popup({maxWidth: '300'});
+
+            
+                var html_4a6ab503e5ff44f5bfe555ac35460a6e = $('<div id="html_4a6ab503e5ff44f5bfe555ac35460a6e" style="width: 100.0%; height: 100.0%;">We&#39;re #hiring! Click to apply: CNA - Float Personnel - https://t.co/zQv5IAjICp #PSJHJobs #Nursing #Everett, WA #Job #Jobs</div>')[0];
+                popup_eb39552544fa45fdbf2c92403351a7ba.setContent(html_4a6ab503e5ff44f5bfe555ac35460a6e);
+            
+
+            marker_f3943b8dfdb64539b3ca133975c045f9.bindPopup(popup_eb39552544fa45fdbf2c92403351a7ba);
+
+            
+        
+    
+
+            var marker_c32a7d22e9d942178187e815f5f22642 = L.marker(
+                [47.9417388,-122.2334664],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_c29e7a0f71bc4ae5b2f10528636677da = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c32a7d22e9d942178187e815f5f22642.setIcon(icon_c29e7a0f71bc4ae5b2f10528636677da);
+            
+    
+            var popup_f0dba93601ee486592878975f764e803 = L.popup({maxWidth: '300'});
+
+            
+                var html_b6ee24caa5864a6aa68593320b6b7851 = $('<div id="html_b6ee24caa5864a6aa68593320b6b7851" style="width: 100.0%; height: 100.0%;">We&#39;re #hiring! Click to apply: CNA - Float Personnel - https://t.co/zQv5IAjICp #PSJHJobs #Nursing #Everett, WA #Job #Jobs {Cluster:3}</div>')[0];
+                popup_f0dba93601ee486592878975f764e803.setContent(html_b6ee24caa5864a6aa68593320b6b7851);
+            
+
+            marker_c32a7d22e9d942178187e815f5f22642.bindPopup(popup_f0dba93601ee486592878975f764e803);
+
+            
+        
+    
+
+            var marker_beba6bbe11394a0b87814c4bb7a7fa0a = L.marker(
+                [40.7597501,-73.9774474],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_92c5c0c162f24b30b03032ce35b6cc88 = L.popup({maxWidth: '300'});
+
+            
+                var html_abf2a8d164f9480a8ff48d73afd8a047 = $('<div id="html_abf2a8d164f9480a8ff48d73afd8a047" style="width: 100.0%; height: 100.0%;">Stone Totalitarian (IRS) Imperial Russian Stout on tap now. https://t.co/LvmRwOuwyX @StoneBrewingCo #YankeesSteakhouse #BeerMenus</div>')[0];
+                popup_92c5c0c162f24b30b03032ce35b6cc88.setContent(html_abf2a8d164f9480a8ff48d73afd8a047);
+            
+
+            marker_beba6bbe11394a0b87814c4bb7a7fa0a.bindPopup(popup_92c5c0c162f24b30b03032ce35b6cc88);
+
+            
+        
+    
+
+            var marker_826b64791056439b91ff5d38db71aea6 = L.marker(
+                [40.7597501,-73.9774474],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_3f3e7f48e21c489885f4c929477b6a67 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_826b64791056439b91ff5d38db71aea6.setIcon(icon_3f3e7f48e21c489885f4c929477b6a67);
+            
+    
+            var popup_f8d72ef527e1473aa7bf336b0a9b3af2 = L.popup({maxWidth: '300'});
+
+            
+                var html_b764f19c0853493598109c4f3f434496 = $('<div id="html_b764f19c0853493598109c4f3f434496" style="width: 100.0%; height: 100.0%;">Stone Totalitarian (IRS) Imperial Russian Stout on tap now. https://t.co/LvmRwOuwyX @StoneBrewingCo #YankeesSteakhouse #BeerMenus {Cluster:0}</div>')[0];
+                popup_f8d72ef527e1473aa7bf336b0a9b3af2.setContent(html_b764f19c0853493598109c4f3f434496);
+            
+
+            marker_826b64791056439b91ff5d38db71aea6.bindPopup(popup_f8d72ef527e1473aa7bf336b0a9b3af2);
+
+            
+        
+    
+
+            var marker_28097a18f4904889a6a6abbfaba735ec = L.marker(
+                [43.1216,-70.7199],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_9da5e8ad59d74828aef1e17c8a754103 = L.popup({maxWidth: '300'});
+
+            
+                var html_5958e7f7141e4c67a864a7bb8e1966e7 = $('<div id="html_5958e7f7141e4c67a864a7bb8e1966e7" style="width: 100.0%; height: 100.0%;">Drinking a Brightside IPA by @LonePineBrewing at @mainebeercafe — https://t.co/DGi9BoDKAL</div>')[0];
+                popup_9da5e8ad59d74828aef1e17c8a754103.setContent(html_5958e7f7141e4c67a864a7bb8e1966e7);
+            
+
+            marker_28097a18f4904889a6a6abbfaba735ec.bindPopup(popup_9da5e8ad59d74828aef1e17c8a754103);
+
+            
+        
+    
+
+            var marker_9c0af212bd604bcaabd4b8d3ff94f605 = L.marker(
+                [43.1216,-70.7199],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_6f4731879e334a1f85808966f496ac2f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9c0af212bd604bcaabd4b8d3ff94f605.setIcon(icon_6f4731879e334a1f85808966f496ac2f);
+            
+    
+            var popup_c5b3bcf9425647328b8e46c361825082 = L.popup({maxWidth: '300'});
+
+            
+                var html_94e6f11672604fa0b832ceab7931d0e2 = $('<div id="html_94e6f11672604fa0b832ceab7931d0e2" style="width: 100.0%; height: 100.0%;">Drinking a Brightside IPA by @LonePineBrewing at @mainebeercafe — https://t.co/DGi9BoDKAL {Cluster:3}</div>')[0];
+                popup_c5b3bcf9425647328b8e46c361825082.setContent(html_94e6f11672604fa0b832ceab7931d0e2);
+            
+
+            marker_9c0af212bd604bcaabd4b8d3ff94f605.bindPopup(popup_c5b3bcf9425647328b8e46c361825082);
+
+            
+        
+    
+
+            var marker_257cb1c72c7047b2a2c9a51bb2f6123d = L.marker(
+                [13.0604,80.2496],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_4e125b43bed2431482546649918eab68 = L.popup({maxWidth: '300'});
+
+            
+                var html_938ac78a544c407283771584ee3f8f84 = $('<div id="html_938ac78a544c407283771584ee3f8f84" style="width: 100.0%; height: 100.0%;">https://t.co/8PUbmWUnbx https://t.co/vObkKgpq1G&#34;</div>')[0];
+                popup_4e125b43bed2431482546649918eab68.setContent(html_938ac78a544c407283771584ee3f8f84);
+            
+
+            marker_257cb1c72c7047b2a2c9a51bb2f6123d.bindPopup(popup_4e125b43bed2431482546649918eab68);
+
+            
+        
+    
+
+            var marker_0adcfb1a34924dbbbb005fb032d8839f = L.marker(
+                [13.0604,80.2496],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_087033f4b66e43db8d8e85a70f0290ad = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0adcfb1a34924dbbbb005fb032d8839f.setIcon(icon_087033f4b66e43db8d8e85a70f0290ad);
+            
+    
+            var popup_d58e12b2e290455fb6d493d805d7b92f = L.popup({maxWidth: '300'});
+
+            
+                var html_dc864d0d1de1499caa8b1dd67857a61e = $('<div id="html_dc864d0d1de1499caa8b1dd67857a61e" style="width: 100.0%; height: 100.0%;">https://t.co/8PUbmWUnbx https://t.co/vObkKgpq1G&#34; {Cluster:3}</div>')[0];
+                popup_d58e12b2e290455fb6d493d805d7b92f.setContent(html_dc864d0d1de1499caa8b1dd67857a61e);
+            
+
+            marker_0adcfb1a34924dbbbb005fb032d8839f.bindPopup(popup_d58e12b2e290455fb6d493d805d7b92f);
+
+            
+        
+    
+
+            var marker_b86b2bb0a3f94b75976201f2f6f6893a = L.marker(
+                [33.6294047,-84.43375725],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_f132a32e3d334956926b03b3876f1956 = L.popup({maxWidth: '300'});
+
+            
+                var html_ccbcc03124f046218216d50fc84edd19 = $('<div id="html_ccbcc03124f046218216d50fc84edd19" style="width: 100.0%; height: 100.0%;">I&#39;m at Hartsfield-Jackson Atlanta South Cargo Ramp in GA https://t.co/aqYAOuY11d</div>')[0];
+                popup_f132a32e3d334956926b03b3876f1956.setContent(html_ccbcc03124f046218216d50fc84edd19);
+            
+
+            marker_b86b2bb0a3f94b75976201f2f6f6893a.bindPopup(popup_f132a32e3d334956926b03b3876f1956);
+
+            
+        
+    
+
+            var marker_1c8a5ddd95fe4d44bb5b7974a37cf026 = L.marker(
+                [33.6294047,-84.43375725],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_46c46843e83949948c50de9a5ef3af1a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1c8a5ddd95fe4d44bb5b7974a37cf026.setIcon(icon_46c46843e83949948c50de9a5ef3af1a);
+            
+    
+            var popup_188b1b9b13f349d3b9428973bb3093e2 = L.popup({maxWidth: '300'});
+
+            
+                var html_f997686467174ae688e951d787a69517 = $('<div id="html_f997686467174ae688e951d787a69517" style="width: 100.0%; height: 100.0%;">I&#39;m at Hartsfield-Jackson Atlanta South Cargo Ramp in GA https://t.co/aqYAOuY11d {Cluster:6}</div>')[0];
+                popup_188b1b9b13f349d3b9428973bb3093e2.setContent(html_f997686467174ae688e951d787a69517);
+            
+
+            marker_1c8a5ddd95fe4d44bb5b7974a37cf026.bindPopup(popup_188b1b9b13f349d3b9428973bb3093e2);
+
+            
+        
+    
+
+            var marker_812453182600448fadb24946f1c87e28 = L.marker(
+                [39.15,-77.75],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_204e3d8218b54da4857afff5ea33748b = L.popup({maxWidth: '300'});
+
+            
+                var html_204dec9480e94564b89fa5066256646c = $('<div id="html_204dec9480e94564b89fa5066256646c" style="width: 100.0%; height: 100.0%;">At 7:45 AM, 2 NE Round Hill [Loudoun Co, VA] NWS EMPLOYEE reports FLOOD. SOUTH FORK CATOCTIN CREEK FLOODED OVER KET… https://t.co/MsVVYItTTz</div>')[0];
+                popup_204e3d8218b54da4857afff5ea33748b.setContent(html_204dec9480e94564b89fa5066256646c);
+            
+
+            marker_812453182600448fadb24946f1c87e28.bindPopup(popup_204e3d8218b54da4857afff5ea33748b);
+
+            
+        
+    
+
+            var marker_f9e3e112f48a44278cce76e6f9395e70 = L.marker(
+                [39.15,-77.75],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_74182a8c63cf4040bc330e51f16d3bd2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f9e3e112f48a44278cce76e6f9395e70.setIcon(icon_74182a8c63cf4040bc330e51f16d3bd2);
+            
+    
+            var popup_edbe6711e4f24b20b3c931402bf4de12 = L.popup({maxWidth: '300'});
+
+            
+                var html_04362403822b4c42840cf0abe9d1812a = $('<div id="html_04362403822b4c42840cf0abe9d1812a" style="width: 100.0%; height: 100.0%;">At 7:45 AM, 2 NE Round Hill [Loudoun Co, VA] NWS EMPLOYEE reports FLOOD. SOUTH FORK CATOCTIN CREEK FLOODED OVER KET… https://t.co/MsVVYItTTz {Cluster:7}</div>')[0];
+                popup_edbe6711e4f24b20b3c931402bf4de12.setContent(html_04362403822b4c42840cf0abe9d1812a);
+            
+
+            marker_f9e3e112f48a44278cce76e6f9395e70.bindPopup(popup_edbe6711e4f24b20b3c931402bf4de12);
+
+            
+        
+    
+
+            var marker_dc5e563a0bee4327943ae3a3148fa371 = L.marker(
+                [39.82869,-75.43248],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_4326f305e4e341caa3c9e78de715f958 = L.popup({maxWidth: '300'});
+
+            
+                var html_1e53df7d2ff44df7b23019c770ff6845 = $('<div id="html_1e53df7d2ff44df7b23019c770ff6845" style="width: 100.0%; height: 100.0%;">Accident, left lane blocked in #UpperChichester on I-95 SB between Chichester Ave and Naamans Rd, jammed back to Chichester Ave #traffic</div>')[0];
+                popup_4326f305e4e341caa3c9e78de715f958.setContent(html_1e53df7d2ff44df7b23019c770ff6845);
+            
+
+            marker_dc5e563a0bee4327943ae3a3148fa371.bindPopup(popup_4326f305e4e341caa3c9e78de715f958);
+
+            
+        
+    
+
+            var marker_c0f4a2acb73a4d3784731746f7cf34ad = L.marker(
+                [39.82869,-75.43248],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_943d37c5309c417bb5c7b19be11eaff1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c0f4a2acb73a4d3784731746f7cf34ad.setIcon(icon_943d37c5309c417bb5c7b19be11eaff1);
+            
+    
+            var popup_66268599912e46999392e0f765a42603 = L.popup({maxWidth: '300'});
+
+            
+                var html_99c024c17bed45d28cc8dc10e533c5c3 = $('<div id="html_99c024c17bed45d28cc8dc10e533c5c3" style="width: 100.0%; height: 100.0%;">Accident, left lane blocked in #UpperChichester on I-95 SB between Chichester Ave and Naamans Rd, jammed back to Chichester Ave #traffic {Cluster:3}</div>')[0];
+                popup_66268599912e46999392e0f765a42603.setContent(html_99c024c17bed45d28cc8dc10e533c5c3);
+            
+
+            marker_c0f4a2acb73a4d3784731746f7cf34ad.bindPopup(popup_66268599912e46999392e0f765a42603);
+
+            
+        
+    
+
+            var marker_9ede49e2b0414bb0be2332dbcf2649e6 = L.marker(
+                [39.77262,-75.59221],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_1eab7ac0d9174bbba0032ce151aa6944 = L.popup({maxWidth: '300'});
+
+            
+                var html_c0bf7678f1e8451593106fcb6dbeb255 = $('<div id="html_c0bf7678f1e8451593106fcb6dbeb255" style="width: 100.0%; height: 100.0%;">Ramp restrictions in #Greenville on Rt-52 Both NB/SB at DE-141 #traffic https://t.co/BtegSRlPfO</div>')[0];
+                popup_1eab7ac0d9174bbba0032ce151aa6944.setContent(html_c0bf7678f1e8451593106fcb6dbeb255);
+            
+
+            marker_9ede49e2b0414bb0be2332dbcf2649e6.bindPopup(popup_1eab7ac0d9174bbba0032ce151aa6944);
+
+            
+        
+    
+
+            var marker_229fa966faae46a6962c61f1e53d7cc3 = L.marker(
+                [39.77262,-75.59221],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_5d30400cab1e43f1bdc01d33bafc2e37 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_229fa966faae46a6962c61f1e53d7cc3.setIcon(icon_5d30400cab1e43f1bdc01d33bafc2e37);
+            
+    
+            var popup_f7ca79d39abc4c338412691a0a313488 = L.popup({maxWidth: '300'});
+
+            
+                var html_4f8a9597b78c4b3a99f613a58a627a60 = $('<div id="html_4f8a9597b78c4b3a99f613a58a627a60" style="width: 100.0%; height: 100.0%;">Ramp restrictions in #Greenville on Rt-52 Both NB/SB at DE-141 #traffic https://t.co/BtegSRlPfO {Cluster:3}</div>')[0];
+                popup_f7ca79d39abc4c338412691a0a313488.setContent(html_4f8a9597b78c4b3a99f613a58a627a60);
+            
+
+            marker_229fa966faae46a6962c61f1e53d7cc3.bindPopup(popup_f7ca79d39abc4c338412691a0a313488);
+
+            
+        
+    
+
+            var marker_7aca85297a5e46c1844a6eda96b6c9d7 = L.marker(
+                [28.02682,-82.187],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_9fd53f4d2ae741378990e011685cddf4 = L.popup({maxWidth: '300'});
+
+            
+                var html_0b86abcfb9da4d5fb513dddad3c96768 = $('<div id="html_0b86abcfb9da4d5fb513dddad3c96768" style="width: 100.0%; height: 100.0%;">Heavy traffic in #Hillsborough on I-4 WB from Branch Forbes Rd to Mcintosh Rd, incident cleared at Mcintosh Rd, delay of 1 min #traffic</div>')[0];
+                popup_9fd53f4d2ae741378990e011685cddf4.setContent(html_0b86abcfb9da4d5fb513dddad3c96768);
+            
+
+            marker_7aca85297a5e46c1844a6eda96b6c9d7.bindPopup(popup_9fd53f4d2ae741378990e011685cddf4);
+
+            
+        
+    
+
+            var marker_47296a5568e146298bb6aad0b590db8c = L.marker(
+                [28.02682,-82.187],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_eeac5623fda142f38d9c6c4bfd6c6c1e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_47296a5568e146298bb6aad0b590db8c.setIcon(icon_eeac5623fda142f38d9c6c4bfd6c6c1e);
+            
+    
+            var popup_d0214b1d5790424eae548c8e911df264 = L.popup({maxWidth: '300'});
+
+            
+                var html_2332ddf5c0414baa9b86541b0c3bd576 = $('<div id="html_2332ddf5c0414baa9b86541b0c3bd576" style="width: 100.0%; height: 100.0%;">Heavy traffic in #Hillsborough on I-4 WB from Branch Forbes Rd to Mcintosh Rd, incident cleared at Mcintosh Rd, delay of 1 min #traffic {Cluster:3}</div>')[0];
+                popup_d0214b1d5790424eae548c8e911df264.setContent(html_2332ddf5c0414baa9b86541b0c3bd576);
+            
+
+            marker_47296a5568e146298bb6aad0b590db8c.bindPopup(popup_d0214b1d5790424eae548c8e911df264);
+
+            
+        
+    
+
+            var marker_f1e15b312f7b41998f3ca8e4e4a36f96 = L.marker(
+                [38.2526647,-85.7584557],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_3d5dfe75b73342318f952dc17ba91ad7 = L.popup({maxWidth: '300'});
+
+            
+                var html_5964a752b68b439e860ae04a474ad6c6 = $('<div id="html_5964a752b68b439e860ae04a474ad6c6" style="width: 100.0%; height: 100.0%;">We&#39;re #hiring! Read about our latest #job opening here: Environmental Protection Assistant -… https://t.co/7TXinrC2uP</div>')[0];
+                popup_3d5dfe75b73342318f952dc17ba91ad7.setContent(html_5964a752b68b439e860ae04a474ad6c6);
+            
+
+            marker_f1e15b312f7b41998f3ca8e4e4a36f96.bindPopup(popup_3d5dfe75b73342318f952dc17ba91ad7);
+
+            
+        
+    
+
+            var marker_4c58d8194b66458190bec29f27cc792e = L.marker(
+                [38.2526647,-85.7584557],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_1c3c66af18634393808457d50e73e543 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4c58d8194b66458190bec29f27cc792e.setIcon(icon_1c3c66af18634393808457d50e73e543);
+            
+    
+            var popup_24a28d43c1b94658b8cfe835a30dd66a = L.popup({maxWidth: '300'});
+
+            
+                var html_627268f9827c45858f16828eb69a71f5 = $('<div id="html_627268f9827c45858f16828eb69a71f5" style="width: 100.0%; height: 100.0%;">We&#39;re #hiring! Read about our latest #job opening here: Environmental Protection Assistant -… https://t.co/7TXinrC2uP {Cluster:3}</div>')[0];
+                popup_24a28d43c1b94658b8cfe835a30dd66a.setContent(html_627268f9827c45858f16828eb69a71f5);
+            
+
+            marker_4c58d8194b66458190bec29f27cc792e.bindPopup(popup_24a28d43c1b94658b8cfe835a30dd66a);
+
+            
+        
+    
+
+            var marker_1e374afb874649229529de0c1bd11dbc = L.marker(
+                [40.9263957,-98.3420118],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_98be0eb46e884fcc8de2852c49ce08db = L.popup({maxWidth: '300'});
+
+            
+                var html_c6f5ddef101d416db9ee5d57f30d5f8f = $('<div id="html_c6f5ddef101d416db9ee5d57f30d5f8f" style="width: 100.0%; height: 100.0%;">Can you recommend anyone for this #job? Police Officer - https://t.co/RchjmUbfHV #security #GrandIsland, NE #Veterans #Hiring #CareerArc</div>')[0];
+                popup_98be0eb46e884fcc8de2852c49ce08db.setContent(html_c6f5ddef101d416db9ee5d57f30d5f8f);
+            
+
+            marker_1e374afb874649229529de0c1bd11dbc.bindPopup(popup_98be0eb46e884fcc8de2852c49ce08db);
+
+            
+        
+    
+
+            var marker_c797ad9ebd944ef4a97811df96de2689 = L.marker(
+                [40.9263957,-98.3420118],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_6ab65800bf9f4c9ca33a350a338416b3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c797ad9ebd944ef4a97811df96de2689.setIcon(icon_6ab65800bf9f4c9ca33a350a338416b3);
+            
+    
+            var popup_87a94ac586264e79b37951074d67951e = L.popup({maxWidth: '300'});
+
+            
+                var html_086c9faa9a5d47f7bb3ff26a5563f757 = $('<div id="html_086c9faa9a5d47f7bb3ff26a5563f757" style="width: 100.0%; height: 100.0%;">Can you recommend anyone for this #job? Police Officer - https://t.co/RchjmUbfHV #security #GrandIsland, NE #Veterans #Hiring #CareerArc {Cluster:3}</div>')[0];
+                popup_87a94ac586264e79b37951074d67951e.setContent(html_086c9faa9a5d47f7bb3ff26a5563f757);
+            
+
+            marker_c797ad9ebd944ef4a97811df96de2689.bindPopup(popup_87a94ac586264e79b37951074d67951e);
+
+            
+        
+    
+
+            var marker_e189687afa4e4337a0e3c7df93f1fa6e = L.marker(
+                [21.88038237,-102.29750835],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_573886be0019401693e7472553e21306 = L.popup({maxWidth: '300'});
+
+            
+                var html_75d5bdd865a54fa192ce523f94751e5e = $('<div id="html_75d5bdd865a54fa192ce523f94751e5e" style="width: 100.0%; height: 100.0%;">I&#39;m at Aguascalientes in AGS https://t.co/ofbbZ0QMKb</div>')[0];
+                popup_573886be0019401693e7472553e21306.setContent(html_75d5bdd865a54fa192ce523f94751e5e);
+            
+
+            marker_e189687afa4e4337a0e3c7df93f1fa6e.bindPopup(popup_573886be0019401693e7472553e21306);
+
+            
+        
+    
+
+            var marker_6772d34c85404e9d979dbf43cd8b5d22 = L.marker(
+                [21.88038237,-102.29750835],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_210d847342b14517b7725da72d11c9f5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6772d34c85404e9d979dbf43cd8b5d22.setIcon(icon_210d847342b14517b7725da72d11c9f5);
+            
+    
+            var popup_8f5f91e5b100460ab870256ca63678fb = L.popup({maxWidth: '300'});
+
+            
+                var html_0c3d069cb2d64faaa16cee614c4c58e9 = $('<div id="html_0c3d069cb2d64faaa16cee614c4c58e9" style="width: 100.0%; height: 100.0%;">I&#39;m at Aguascalientes in AGS https://t.co/ofbbZ0QMKb {Cluster:3}</div>')[0];
+                popup_8f5f91e5b100460ab870256ca63678fb.setContent(html_0c3d069cb2d64faaa16cee614c4c58e9);
+            
+
+            marker_6772d34c85404e9d979dbf43cd8b5d22.bindPopup(popup_8f5f91e5b100460ab870256ca63678fb);
+
+            
+        
+    
+
+            var marker_c8a9941fc69c4908a8e032692c24ddb1 = L.marker(
+                [34.1,-117.44],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_edfaffb36fc74eb6a258978925475e1a = L.popup({maxWidth: '300'});
+
+            
+                var html_1af2347d2dd341a899b2aca454359d88 = $('<div id="html_1af2347d2dd341a899b2aca454359d88" style="width: 100.0%; height: 100.0%;">wind 1mph -&amp;gt; 10mph&#34;</div>')[0];
+                popup_edfaffb36fc74eb6a258978925475e1a.setContent(html_1af2347d2dd341a899b2aca454359d88);
+            
+
+            marker_c8a9941fc69c4908a8e032692c24ddb1.bindPopup(popup_edfaffb36fc74eb6a258978925475e1a);
+
+            
+        
+    
+
+            var marker_2c228cf13b08468d903de63ffa651387 = L.marker(
+                [34.1,-117.44],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_be39dc4e9f064f17815d09010e24f369 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2c228cf13b08468d903de63ffa651387.setIcon(icon_be39dc4e9f064f17815d09010e24f369);
+            
+    
+            var popup_be92d24c058d4ead8735c8eabfff66ce = L.popup({maxWidth: '300'});
+
+            
+                var html_50bcaafca8f04403ad78d210ff064c22 = $('<div id="html_50bcaafca8f04403ad78d210ff064c22" style="width: 100.0%; height: 100.0%;">wind 1mph -&amp;gt; 10mph&#34; {Cluster:4}</div>')[0];
+                popup_be92d24c058d4ead8735c8eabfff66ce.setContent(html_50bcaafca8f04403ad78d210ff064c22);
+            
+
+            marker_2c228cf13b08468d903de63ffa651387.bindPopup(popup_be92d24c058d4ead8735c8eabfff66ce);
+
+            
+        
+    
+
+            var marker_e96dcde4d5604a1e90fc2e3fb4be6f86 = L.marker(
+                [39.959764,-74.199773],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_f6735f0ca28d4fe5867212608f564759 = L.popup({maxWidth: '300'});
+
+            
+                var html_15979d8f469c46d2858e216b444c5037 = $('<div id="html_15979d8f469c46d2858e216b444c5037" style="width: 100.0%; height: 100.0%;">Construction on #NJ166 Both directions from CR 8/Dayton Av to CR 623/Old Freehold Rd https://t.co/OUWycWqN1J</div>')[0];
+                popup_f6735f0ca28d4fe5867212608f564759.setContent(html_15979d8f469c46d2858e216b444c5037);
+            
+
+            marker_e96dcde4d5604a1e90fc2e3fb4be6f86.bindPopup(popup_f6735f0ca28d4fe5867212608f564759);
+
+            
+        
+    
+
+            var marker_0f472cb6f69d409fab64301d9a52a4b1 = L.marker(
+                [39.959764,-74.199773],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_848ac6e076ce4009bd0948a3e1ee4aec = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0f472cb6f69d409fab64301d9a52a4b1.setIcon(icon_848ac6e076ce4009bd0948a3e1ee4aec);
+            
+    
+            var popup_38be03eac2d04e928c8ed1ae2dc3e848 = L.popup({maxWidth: '300'});
+
+            
+                var html_ad3528bab6cc490d9ea24f30f0c53236 = $('<div id="html_ad3528bab6cc490d9ea24f30f0c53236" style="width: 100.0%; height: 100.0%;">Construction on #NJ166 Both directions from CR 8/Dayton Av to CR 623/Old Freehold Rd https://t.co/OUWycWqN1J {Cluster:3}</div>')[0];
+                popup_38be03eac2d04e928c8ed1ae2dc3e848.setContent(html_ad3528bab6cc490d9ea24f30f0c53236);
+            
+
+            marker_0f472cb6f69d409fab64301d9a52a4b1.bindPopup(popup_38be03eac2d04e928c8ed1ae2dc3e848);
+
+            
+        
+    
+
+            var marker_3183c792efcc4b06acc5e1901d9387e7 = L.marker(
+                [40.739165,-74.37039],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_008f636e7ee442f09508a58320a06aff = L.popup({maxWidth: '300'});
+
+            
+                var html_db8bcb9bda6f446fba7317c389f3a2e1 = $('<div id="html_db8bcb9bda6f446fba7317c389f3a2e1" style="width: 100.0%; height: 100.0%;">Updated: Construction on #NJ124 Both directions from CR 649/John F Kennedy Pkwy to South Ter https://t.co/nueDIsEkRc</div>')[0];
+                popup_008f636e7ee442f09508a58320a06aff.setContent(html_db8bcb9bda6f446fba7317c389f3a2e1);
+            
+
+            marker_3183c792efcc4b06acc5e1901d9387e7.bindPopup(popup_008f636e7ee442f09508a58320a06aff);
+
+            
+        
+    
+
+            var marker_16912bb6a16a4ae09c34f0c600450de8 = L.marker(
+                [40.739165,-74.37039],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_eab88435b4664b038615806d676a6616 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_16912bb6a16a4ae09c34f0c600450de8.setIcon(icon_eab88435b4664b038615806d676a6616);
+            
+    
+            var popup_3203b08437aa4235b96631ee9ed13155 = L.popup({maxWidth: '300'});
+
+            
+                var html_c46c8b5db89741ee8de5f442ea037064 = $('<div id="html_c46c8b5db89741ee8de5f442ea037064" style="width: 100.0%; height: 100.0%;">Updated: Construction on #NJ124 Both directions from CR 649/John F Kennedy Pkwy to South Ter https://t.co/nueDIsEkRc {Cluster:3}</div>')[0];
+                popup_3203b08437aa4235b96631ee9ed13155.setContent(html_c46c8b5db89741ee8de5f442ea037064);
+            
+
+            marker_16912bb6a16a4ae09c34f0c600450de8.bindPopup(popup_3203b08437aa4235b96631ee9ed13155);
+
+            
+        
+    
+
+            var marker_8b2f9dd084b04409a05056fd4aaa49f1 = L.marker(
+                [25.947713,-80.1400558],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_406c11d603a34e0fba4a572d5beab518 = L.popup({maxWidth: '300'});
+
+            
+                var html_d3cb5aea49244f1d9fb2ece2d048da22 = $('<div id="html_d3cb5aea49244f1d9fb2ece2d048da22" style="width: 100.0%; height: 100.0%;">See a virtual tour of my listing on 3001 NE 185th St  #426 #Aventura #FL  #realestate https://t.co/QSpXfIEErs https://t.co/ZMKu6g3E8o</div>')[0];
+                popup_406c11d603a34e0fba4a572d5beab518.setContent(html_d3cb5aea49244f1d9fb2ece2d048da22);
+            
+
+            marker_8b2f9dd084b04409a05056fd4aaa49f1.bindPopup(popup_406c11d603a34e0fba4a572d5beab518);
+
+            
+        
+    
+
+            var marker_555abd44ee474faf96f934536a1f0235 = L.marker(
+                [25.947713,-80.1400558],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_1b7b5a6ba21a43cc94ee699fdefaacf9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_555abd44ee474faf96f934536a1f0235.setIcon(icon_1b7b5a6ba21a43cc94ee699fdefaacf9);
+            
+    
+            var popup_215e08d1a4ff4d6a8008ac2d79bb1475 = L.popup({maxWidth: '300'});
+
+            
+                var html_7371b352c5dd4ae28ab736c51c35fb65 = $('<div id="html_7371b352c5dd4ae28ab736c51c35fb65" style="width: 100.0%; height: 100.0%;">See a virtual tour of my listing on 3001 NE 185th St  #426 #Aventura #FL  #realestate https://t.co/QSpXfIEErs https://t.co/ZMKu6g3E8o {Cluster:3}</div>')[0];
+                popup_215e08d1a4ff4d6a8008ac2d79bb1475.setContent(html_7371b352c5dd4ae28ab736c51c35fb65);
+            
+
+            marker_555abd44ee474faf96f934536a1f0235.bindPopup(popup_215e08d1a4ff4d6a8008ac2d79bb1475);
+
+            
+        
+    
+
+            var marker_a0aa4b064cb141f0be571eb7707883db = L.marker(
+                [41.8939775,-87.6216074],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_33148d9f36d7496cb64729307410aade = L.popup({maxWidth: '300'});
+
+            
+                var html_fac50646f13649219f51898250a90f77 = $('<div id="html_fac50646f13649219f51898250a90f77" style="width: 100.0%; height: 100.0%;">See a virtual tour of our listing on 233 East Erie Street #1604 #Chicago-nearNorthSide #... https://t.co/5EaCFwbeGc https://t.co/mQ97uJaJcz</div>')[0];
+                popup_33148d9f36d7496cb64729307410aade.setContent(html_fac50646f13649219f51898250a90f77);
+            
+
+            marker_a0aa4b064cb141f0be571eb7707883db.bindPopup(popup_33148d9f36d7496cb64729307410aade);
+
+            
+        
+    
+
+            var marker_35d1968702ae42f8a493437f3f74a898 = L.marker(
+                [41.8939775,-87.6216074],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_2ad5a106992f49f190d0f4c7bae09732 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_35d1968702ae42f8a493437f3f74a898.setIcon(icon_2ad5a106992f49f190d0f4c7bae09732);
+            
+    
+            var popup_bb15b6373b34469fb3d63956a3ae4c30 = L.popup({maxWidth: '300'});
+
+            
+                var html_1af5b74460e641f797cc262fd49ff4ff = $('<div id="html_1af5b74460e641f797cc262fd49ff4ff" style="width: 100.0%; height: 100.0%;">See a virtual tour of our listing on 233 East Erie Street #1604 #Chicago-nearNorthSide #... https://t.co/5EaCFwbeGc https://t.co/mQ97uJaJcz {Cluster:3}</div>')[0];
+                popup_bb15b6373b34469fb3d63956a3ae4c30.setContent(html_1af5b74460e641f797cc262fd49ff4ff);
+            
+
+            marker_35d1968702ae42f8a493437f3f74a898.bindPopup(popup_bb15b6373b34469fb3d63956a3ae4c30);
+
+            
+        
+    
+
+            var marker_19b9342df3a541a48787a1e89c46684b = L.marker(
+                [40.7597501,-73.9774474],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_9d6537ed395a4f7b9e0addb0d7241aa6 = L.popup({maxWidth: '300'});
+
+            
+                var html_9fcbd59950664a4b8a476fa6ff5a800e = $('<div id="html_9fcbd59950664a4b8a476fa6ff5a800e" style="width: 100.0%; height: 100.0%;">The Bruery Girl Grey on tap now. https://t.co/v1UXjG3D1Y @TheBruery #YankeesSteakhouse #BeerMenus</div>')[0];
+                popup_9d6537ed395a4f7b9e0addb0d7241aa6.setContent(html_9fcbd59950664a4b8a476fa6ff5a800e);
+            
+
+            marker_19b9342df3a541a48787a1e89c46684b.bindPopup(popup_9d6537ed395a4f7b9e0addb0d7241aa6);
+
+            
+        
+    
+
+            var marker_dab49524703448a88f446d91972ecf4f = L.marker(
+                [40.7597501,-73.9774474],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_9241906c8ba2444ca0fd4c2a4dd9f868 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_dab49524703448a88f446d91972ecf4f.setIcon(icon_9241906c8ba2444ca0fd4c2a4dd9f868);
+            
+    
+            var popup_5f04e28f2bb7466189029c18922da49b = L.popup({maxWidth: '300'});
+
+            
+                var html_3953578649ae4eceb5bb13023f4a4442 = $('<div id="html_3953578649ae4eceb5bb13023f4a4442" style="width: 100.0%; height: 100.0%;">The Bruery Girl Grey on tap now. https://t.co/v1UXjG3D1Y @TheBruery #YankeesSteakhouse #BeerMenus {Cluster:3}</div>')[0];
+                popup_5f04e28f2bb7466189029c18922da49b.setContent(html_3953578649ae4eceb5bb13023f4a4442);
+            
+
+            marker_dab49524703448a88f446d91972ecf4f.bindPopup(popup_5f04e28f2bb7466189029c18922da49b);
+
+            
+        
+    
+
+            var marker_0860a0a0f55a46ba8d1b35f1b6ebd6b0 = L.marker(
+                [26.1609623,-80.1305602],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_13c0835d1ae542db9923ccbd9faa54fb = L.popup({maxWidth: '300'});
+
+            
+                var html_6425900ea79a4dba86b8dd40b5d8740f = $('<div id="html_6425900ea79a4dba86b8dd40b5d8740f" style="width: 100.0%; height: 100.0%;">I would love to show you my #listing at 2617 NE 14th AVENUE 102 #WiltonManors #FL  #real... https://t.co/Q2u0itxSIB https://t.co/Jvn8Nyd0WE</div>')[0];
+                popup_13c0835d1ae542db9923ccbd9faa54fb.setContent(html_6425900ea79a4dba86b8dd40b5d8740f);
+            
+
+            marker_0860a0a0f55a46ba8d1b35f1b6ebd6b0.bindPopup(popup_13c0835d1ae542db9923ccbd9faa54fb);
+
+            
+        
+    
+
+            var marker_c34d8a90847a49b0841a32fcebbdc8ce = L.marker(
+                [26.1609623,-80.1305602],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_b9979ce43cbb4b3eb686b5bf024285df = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c34d8a90847a49b0841a32fcebbdc8ce.setIcon(icon_b9979ce43cbb4b3eb686b5bf024285df);
+            
+    
+            var popup_1d741a5b12a845a1b6de572c328d4237 = L.popup({maxWidth: '300'});
+
+            
+                var html_819f1dbde9a34592af66932ee4e2d45f = $('<div id="html_819f1dbde9a34592af66932ee4e2d45f" style="width: 100.0%; height: 100.0%;">I would love to show you my #listing at 2617 NE 14th AVENUE 102 #WiltonManors #FL  #real... https://t.co/Q2u0itxSIB https://t.co/Jvn8Nyd0WE {Cluster:3}</div>')[0];
+                popup_1d741a5b12a845a1b6de572c328d4237.setContent(html_819f1dbde9a34592af66932ee4e2d45f);
+            
+
+            marker_c34d8a90847a49b0841a32fcebbdc8ce.bindPopup(popup_1d741a5b12a845a1b6de572c328d4237);
+
+            
+        
+    
+
+            var marker_45683a1d04714543abceaca534757223 = L.marker(
+                [40.45099425,-74.31393575],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_5346cf73005b457cafe61542dc596e02 = L.popup({maxWidth: '300'});
+
+            
+                var html_6625ae4de088499eb5dc42c35d5a3582 = $('<div id="html_6625ae4de088499eb5dc42c35d5a3582" style="width: 100.0%; height: 100.0%;">I&#39;m at @QuickChek in Parlin, NJ https://t.co/4ofB63vOzH</div>')[0];
+                popup_5346cf73005b457cafe61542dc596e02.setContent(html_6625ae4de088499eb5dc42c35d5a3582);
+            
+
+            marker_45683a1d04714543abceaca534757223.bindPopup(popup_5346cf73005b457cafe61542dc596e02);
+
+            
+        
+    
+
+            var marker_b21ff753d8c9492383efb9bf11b91b4c = L.marker(
+                [40.45099425,-74.31393575],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_7d43372b4a844b9e8c04742c57a17db5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b21ff753d8c9492383efb9bf11b91b4c.setIcon(icon_7d43372b4a844b9e8c04742c57a17db5);
+            
+    
+            var popup_c0927280523945a083e6ff9138649efd = L.popup({maxWidth: '300'});
+
+            
+                var html_575564c799e14a4fb6e517fa38208b43 = $('<div id="html_575564c799e14a4fb6e517fa38208b43" style="width: 100.0%; height: 100.0%;">I&#39;m at @QuickChek in Parlin, NJ https://t.co/4ofB63vOzH {Cluster:2}</div>')[0];
+                popup_c0927280523945a083e6ff9138649efd.setContent(html_575564c799e14a4fb6e517fa38208b43);
+            
+
+            marker_b21ff753d8c9492383efb9bf11b91b4c.bindPopup(popup_c0927280523945a083e6ff9138649efd);
+
+            
+        
+    
+
+            var marker_4d91802ce2c541bd8b03d9781621dc77 = L.marker(
+                [43.121662,-87.908804],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+            var popup_8a16158f858b4a38b03d5646fbecc300 = L.popup({maxWidth: '300'});
+
+            
+                var html_99b734d4705843599da9d4a51336dc73 = $('<div id="html_99b734d4705843599da9d4a51336dc73" style="width: 100.0%; height: 100.0%;">I would love to show you my #listing at 5744 N Kent AVE #WhitefishBay #WI  #realestate https://t.co/wWoGNhqQG1 https://t.co/Mh6VxfRDR3</div>')[0];
+                popup_8a16158f858b4a38b03d5646fbecc300.setContent(html_99b734d4705843599da9d4a51336dc73);
+            
+
+            marker_4d91802ce2c541bd8b03d9781621dc77.bindPopup(popup_8a16158f858b4a38b03d5646fbecc300);
+
+            
+        
+    
+
+            var marker_918046175bef4c7bb5bd60cc71a11529 = L.marker(
+                [43.121662,-87.908804],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_e0f3f6dfd08e4ad388c2d547928ee4a3);
+            
+    
+
+                var icon_42a6eb9c6e9e48dcb52226bc7c965187 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_918046175bef4c7bb5bd60cc71a11529.setIcon(icon_42a6eb9c6e9e48dcb52226bc7c965187);
+            
+    
+            var popup_0c811fef5f4949aab4e4fd920e299483 = L.popup({maxWidth: '300'});
+
+            
+                var html_51dd18ad8cfc4911899722c85e3e18aa = $('<div id="html_51dd18ad8cfc4911899722c85e3e18aa" style="width: 100.0%; height: 100.0%;">I would love to show you my #listing at 5744 N Kent AVE #WhitefishBay #WI  #realestate https://t.co/wWoGNhqQG1 https://t.co/Mh6VxfRDR3 {Cluster:3}</div>')[0];
+                popup_0c811fef5f4949aab4e4fd920e299483.setContent(html_51dd18ad8cfc4911899722c85e3e18aa);
+            
+
+            marker_918046175bef4c7bb5bd60cc71a11529.bindPopup(popup_0c811fef5f4949aab4e4fd920e299483);
+
+            
+        
+</script>
