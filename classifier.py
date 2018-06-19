@@ -1,7 +1,8 @@
 from pyspark import SparkConf, SparkContext
 from pyspark.mllib.feature import HashingTF
 from pyspark.mllib.regression import LabeledPoint
-from pyspark.mllib.classification import LogisticRegressionWithSGD
+from pyspark.mllib.classification import LogisticRegressionWithSGD, NaiveBayes, LogisticRegressionWithLBFGS, SVMWithSGD
+from pyspark.mllib.tree import DecisionTree, RandomForest
 
 
 def score(model):
@@ -51,11 +52,30 @@ samples = fake_samples.union(real_samples)
 training_data.cache()
 test_data.cache()
 
-algorithm = LogisticRegressionWithSGD()
+# algorithm = LogisticRegressionWithSGD()
+# model = algorithm.train(training_data)
+# print('logistic regression sgd:' ,score(model))
+#
+# algorithm = LogisticRegressionWithLBFGS()
+# model = algorithm.train(training_data)
+# print('logistic regression with lbfgs: ',score(model))
+#
+#
+# algorithm = DecisionTree()
+# model = algorithm.trainClassifier(training_data, numClasses=2,categoricalFeaturesInfo={})
+# print('decision tree: ',score(model))
+
+# algorithm = RandomForest()
+# model = algorithm.trainClassifier(training_data,numClasses=2,categoricalFeaturesInfo={},numTrees=16)
+# print('ranom forest: ',score(model))
+
+algorithm = NaiveBayes()
 model = algorithm.train(training_data)
+print('naive bayes: ',score(model))
 
-print(score(model))
-model.save(sc,"classifierModelPLOS")
-
+algorithm = SVMWithSGD()
+model = algorithm.train(training_data,iterations=10)
+print('svm with sgd: ',score(model))
+#model.save(sc,"classifierModelPLOS")
 if __name__ == "__main__":
     pass
