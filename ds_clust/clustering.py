@@ -238,7 +238,7 @@ def kmeansresults2():
             yaxis.append(wssse)
             print("Within Set Sum of Squared Errors  for k= " + str(k) + "is " + str(wssse))
         except Exception as e:
-            print(e)
+            print(e)            
     if len(xaxis) != len(yaxis):
         length = min(len(xaxis),len(yaxis))
         xaxis = xaxis[:length]
