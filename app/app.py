@@ -27,7 +27,7 @@ streamer.sc=sc
 streamer.sqlContext=sqlContext
 
 title = "Twitter Story Maker"
-tweetCount = g.integerbox("Number of tweets to be collected:", title=title)
+tweetCount = g.integerbox("Number of tweets to be collected:", title=title,upperbound=1000)
 streamer.setTweets(tweetCount)
 print(streamer.nrOfTweets)
 waitingMsg = WaitMsg()
@@ -51,3 +51,4 @@ os.startfile('prettyPrint.csv')
 term = g.enterbox("Insert wanted term")
 cluster =m.getMaxCluster(term)
 m.mapping(cluster,term)
+os.startfile('my_mapStamen.html')
