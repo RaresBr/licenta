@@ -3,9 +3,9 @@ from pyspark import SparkConf, SparkContext, SQLContext
 import csv
 
 
-def getMaxCluster(keyword="I'm"):
+def getMaxCluster(keyword="I'm",k=8):
     clusters_and_count = {}
-    for i in range(0, 8):
+    for i in range(0, k):
         clusters_and_count[i] = 0
     with open('liveTweetsLocationKmeans.csv') as csvfile:
         reader = csv.DictReader(csvfile)

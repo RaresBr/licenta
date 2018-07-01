@@ -49,6 +49,6 @@ clustering.kmeans_from_csv(k=k)
 import mapping as m
 os.startfile('prettyPrint.csv')
 term = g.enterbox("Insert wanted term")
-cluster =m.getMaxCluster(term)
+cluster =m.getMaxCluster(term,k)
 m.mapping(cluster,term)
 os.startfile('my_mapStamen.html')
